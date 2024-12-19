@@ -1,0 +1,122 @@
+
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f3e9;
+    color:  #c57f38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.coffee-container {
+    background-color: #0a0909;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 90%;
+    width: 400px;
+}
+
+.coffee-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #c57f38;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #5a3817;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #3e270f;
+}
+
+#price {
+    font-size: 18px;
+    margin: 10px 0;
+    color:  #d0771e;
+}
+
+#orderMessage {
+    font-size: 16px;
+    color:  #c57f38;
+    margin-top: 15px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .coffee-container {
+        padding: 15px;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    select, button {
+        font-size: 14px;
+    }
+
+    #price {
+        font-size: 16px;
+    }
+
+    #orderMessage {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    select, button {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    #price {
+        font-size: 14px;
+    }
+
+    #orderMessage {
+        font-size: 12px;
+    }
+}
+
+  

@@ -1,0 +1,66 @@
+ARRAY:
+
+1.Array is an object to store multiple data under one single variable name
+
+2.Two ways to define an array-   Array literal and Array constructor
+
+3.Array name, elements, array index, array length
+--------------------------------------------------------------------------------------------------------------------------------------------------
+ Array literal-
+
+ In JavaScript, an array literal is a list of expressions, each of which represents an array element, enclosed in a pair of square brackets ' [ ] '.
+--------------------------------------------------------------------------------------------------------------------------------------------------
+Array constructor-
+
+ Arrays can be created using a constructor with a single number parameter. An array is created with its length property set to that number, and the array elements are empty slots.
+
+**************************************************************************************************************************************************
+STRING:
+
+In JavaScript, a string is a sequence of characters used to represent text. Strings can include letters, numbers, symbols, or even spaces.
+
+**************************************************************************************************************************************************
+OBJECT:
+1.object is non-primitive data type which store data in key value pair
+2.Two ways to define an object - object literal and object constructor
+3.Better to use Const-constant
+Object Literal
+An object literal is a list of name: value pairs inside curly braces {}.
+Object Constructor:
+Keys, values
+
+***************************************************************************************************************************************************
+
+functions:
+
+how can we define function ?
+3 ways to create a function
+Arrow function
+function expression 
+function declaration
+
+***************************************************************************************************************************************************
+ 
+Events :
+
+In JavaScript, events are actions or occurrences that happen in the browser, which JavaScript can respond to. Events are a way for your code to react to user actions or browser activities.
+
+Common Types of Events:
+Mouse Events: Triggered by mouse actions.
+
+click: When an element is clicked.
+mouseover: When the mouse is over an element.
+mouseout: When the mouse leaves an element.
+Keyboard Events: Triggered by keyboard interactions.
+
+keydown: When a key is pressed.
+keyup: When a key is released.
+Form Events: Triggered by form inputs.
+
+submit: When a form is submitted.
+change: When the value of an input changes.
+Window Events: Triggered by browser actions.
+
+load: When the webpage is fully loaded.
+resize: When the browser window is resized.
+****************************************************************************************************************************************************

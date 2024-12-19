@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Coffee webpage</title>
+</head>
+<body>
+    
+  <div class="coffee-container">
+    <img src="https://thecircleofaroma.in/cdn/shop/files/picture-steaming-cup-coffee-perfect-coffee-lovers-can-be-used-illustrate-concept-cozy-morning-caffeine-addiction-warm-beverage.jpg?v=1719467884&width=3840" alt="Coffee">
+    <h1>Order Your Coffee</h1>
+    <div>
+      <label for="coffeeType">Choose your coffee:</label>
+      <select id="coffeeType">
+        
+        <option value="Latte">Latte</option>
+        <option value="Cortado">Cortado</option>
+        <option value="Cappuccino">Cappuccino</option>
+        <option value="Macchiato">Macchiato</option>
+        <option value="Affogato">Affogato</option>
+      </select>
+    </div>
+    <div>
+      <label for="coffeeSize">Choose your size:</label>
+      <select id="coffeeSize">
+        
+        <option value="small">Small</option>
+        <option value="medium">Medium</option>
+        <option value="large">Large</option>
+      </select>
+    </div>
+    <div>
+      <p id="price">Price: $0.00</p>
+    </div>
+    <button id="orderButton">Place Order</button>
+    <p id="orderMessage"></p>
+  </div>
+  
+
+    <script src="./script.js"></script>
+</body>
+</html>
